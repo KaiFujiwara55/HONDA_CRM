@@ -3,3 +3,5 @@ tqdm
 python-dotenv
 gspread
 pywin32
+google-auth
+pyinstaller

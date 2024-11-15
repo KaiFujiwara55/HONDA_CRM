@@ -1,8 +1,8 @@
 @echo off
 echo process start!
 
-cd C:\\Users\\info\\Desktop\\HONDA_CRM
-C:\\Python312\\python.exe PROGRAM\\mail_win32com.py
+cd C:\\Users\\info\\python_program\\HONDA_CRM
+FOR_EXE\\mail_win32com.exe
 
 echo process compleated!
 

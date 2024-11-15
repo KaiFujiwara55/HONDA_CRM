@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-load_dotenv("MASTER_DATA/.env")
+load_dotenv("MASTER_DATA//.env")
 import datetime
 import pandas as pd
 from google.oauth2.service_account import Credentials
@@ -23,7 +23,6 @@ def get_spread_sheet():
         'https://www.googleapis.com/auth/spreadsheets',
         'https://www.googleapis.com/auth/drive'
     ]
-
     credentials = Credentials.from_service_account_file(
         os.environ.get("AUTH_PATH"),
         scopes=scopes
