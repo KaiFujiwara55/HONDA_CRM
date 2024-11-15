@@ -4,12 +4,11 @@ import os
 from dotenv import load_dotenv
 load_dotenv("MASTER_DATA/.env")
 import sys
+import time
 import datetime
 import pandas as pd
 import traceback
 import win32com.client
-from pathlib import Path
-import time
 from tqdm import tqdm
 
 def mailSend(mail_address, subject, body_text, img_path, flg):
