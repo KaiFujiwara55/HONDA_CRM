@@ -38,7 +38,7 @@
 - メールのフォーマットなどを、変更したい場合は、*藤原*に連絡してください。  
 すぐしたければ、メール本文は`HONDA_CRMメール送信/MASTER_DATA/mail.html`を変更すればいけます。
 
-- CCを含めずにメールを送信したい場合は、`HONDA_CRM/MASTER_DATA/.env`ないの`CC_FLG = False`に変更してください。
+- CCを含めずにメールを送信したい場合は、`HONDA_CRM/MASTER_DATA/.env`ないの`CC_FLG = 0`に変更してください。
 
 - `connect_google_servive.json`はGoogleアカウント`SFPJ`の`Google Cloud Platform`のプロジェクト`marketing-crm`から取得することが可能です。  
 一応隠してます。

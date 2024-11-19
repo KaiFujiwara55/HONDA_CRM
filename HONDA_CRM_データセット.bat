@@ -1,8 +1,8 @@
 @echo off
 echo process start!
 
-cd C:\\Users\\info\\python_program\\HONDA_CRM
-FOR_EXE\\init_program_data.exe
+cd C:\\Users\\USER\\python_program\\HONDA_CRM
+C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python311\\python.exe .\\PROGRAM\\init_program_data.py
 
 echo process compleated!
 

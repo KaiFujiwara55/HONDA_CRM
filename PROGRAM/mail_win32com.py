@@ -19,7 +19,7 @@ def mailSend(mail_address, subject, body_text, img_path, flg):
     mail.bodyFormat = 2 # 2: htmlメールのフォーマットを指定
 
     mail.to = mail_address
-    if os.environ.get("CC_FLG"):
+    if int(os.environ.get("CC_FLG")):
         mail.cc = os.environ.get("CC_MAILADDRESS")
     mail.subject = subject
     mail.HTMLBody = body_text
